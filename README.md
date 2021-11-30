@@ -13,8 +13,8 @@
 - Go to shell and run
   `pip install --upgrade poetry`
 - Click on `main.py` and click button run
-- The web app will be availabe at https://appName.userName.repl.co
-- Format https://<replname>.<username>.repl.co
+- The web app will be availabe at https://replit.com/@Blac-rose-6/Flash-Cards#main.py
+
 
 # Folder Structure
 
