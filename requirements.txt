@@ -1,0 +1,6 @@
+Flask
+Flask-login
+SQLAlchemy
+Flask-SQLAlchemy
+Flask-RESTful
+Jinja2
