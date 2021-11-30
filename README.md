@@ -1,3 +1,10 @@
+# About 
+
+- This project aims to create a flash-card application that allows users to create,login into his/her account, create decks i.e. collection of cards. 
+- A card consists of front and back which can be designed to store information as per the usage of the deck as per user. 
+- The cards are scored into 5 categories EasyPeasy(10) , Easy(8) , Medium(6) , Hard(4) , Enigma(2) according to which deck is overall scored. 
+- APIs are based on CRUD in the application , build/deplot with by flask-restful and are still underdevelopment. Hence it would be better if user restrain from putting too many request at a time
+
 # Local Setup
 
 - Clone the project
