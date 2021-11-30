@@ -12,9 +12,11 @@
 
 # Replit run
 
+- Clone the project to form your own repl for the project.
 - Go to shell and run
   `pip install --upgrade poetry`
 - Click on `main.py` and click button run
+
 - The web app will be availabe at https://replit.com/@Blac-rose-6/Flash-Cards#main.py
 
 
