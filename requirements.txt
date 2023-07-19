@@ -4,3 +4,4 @@ SQLAlchemy
 Flask-SQLAlchemy
 Flask-RESTful
 Jinja2
+requests

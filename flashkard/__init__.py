@@ -15,6 +15,7 @@ def create_app():
     app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///' + os.path.join(BASE_DIR, 'project.sqlite3')
     db.init_app(app)
     api = Api(app)
+    app.app_context().push()
 
 
     from .api import UserAPI, DeckAPI, CardAPI
@@ -44,5 +45,5 @@ def create_app():
 
 def create_db(app):
     if not path.exists("flashkard/"+ DB_NAME):
-        db.create_all(app=app)
+        db.create_all()
     print('DATABASE ALREADY EXISTS')
